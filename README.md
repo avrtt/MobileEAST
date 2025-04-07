@@ -1,12 +1,10 @@
-Here is my thesis on computer vision, which I presented in 2023 for a Bachelor's degree.
-
-This project introduces a new scene text detection architecture focused on speed, which is a combination of different neural network models.
-
-The texts of the paper and presentation are in Russian. Here's the abstract translated to English:
-
 > The paper introduces a lightweight modification of the EAST neural network model, which allows to speed up the task of localization of text regions in images comprising sophisticated scenes. We present theoretical background associated with the most relevant methods of text localization and recognition. A CRNN+CTC-loss neural network model and an end-to-end model of text recognition on images based on EAST and CRNN+CTC-loss models are implemented and tested. We also proposed a lightweight modification of the end-to-end FOTS model based on the developed lightweight modification of the EAST model and the CRNN+CTC-loss model.
 
-## MobileEAST implementation
+<br/>
+
+Here is my thesis on computer vision, which I presented in 2023 for a Bachelor's degree. This project introduces a new scene text detection architecture focused on speed, which is a combination of different neural network models. The texts of the paper and presentation are in Russian. The abstract above is translated.
+
+## Implementation
 
 Please reference to files:
 - [model.py](https://github.com/avrtt/MobileEAST/blob/main/code/model.py)
